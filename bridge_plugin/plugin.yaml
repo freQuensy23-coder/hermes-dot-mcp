@@ -1,0 +1,9 @@
+name: hermes-dot-control
+version: 0.1.0
+manifest_version: 2
+api_version: 1
+description: Owner-only default-profile Telegram topic control over a private Unix socket.
+python_dependencies:
+  - aiohttp>=3.9,<4
+provides_tools: []
+provides_hooks: []

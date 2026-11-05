@@ -1,0 +1,19 @@
+{
+  "base_url": "https://mcp.example.org",
+  "host": "127.0.0.1",
+  "port": 8765,
+  "db_path": "/home/example/.hermes/services/hermes-dot-mcp/oauth.db",
+  "login_password_hash": "REPLACE_WITH_YOUR_SCRYPT_PASSWORD_HASH",
+  "relay_credentials": "/home/example/.hermes/credentials/hermes-dot-mcp.json",
+  "backend": {
+    "hermes_home": "/home/example/.hermes",
+    "socket_path": "/home/example/.hermes/hermes-dot-control.sock",
+    "state_path": "/home/example/.hermes/services/hermes-dot-mcp/control.db",
+    "owner_id": "123456789",
+    "profile": "default"
+  },
+  "events": {
+    "db_path": "/home/example/.hermes/services/hermes-dot-mcp/events.db"
+  },
+  "backend_timeout_seconds": 60
+}
